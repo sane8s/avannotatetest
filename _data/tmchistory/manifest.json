@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://sane8s.github.io/avannotatetest/tmchistory/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "tmchistory" ] },
+    "items": [
+      {
+        "id": "https://sane8s.github.io/avannotatetest/tmchistory/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 332.0,
+        "items": [
+          {
+            "id": "https://sane8s.github.io/avannotatetest/tmchistory/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://sane8s.github.io/avannotatetest/tmchistory/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://archive.org/download/mhc-av-tmc-history/MHC-AV_TMC-History.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 332.0
+                },
+                "target": "https://sane8s.github.io/avannotatetest/tmchistory/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
