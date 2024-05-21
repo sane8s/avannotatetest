@@ -8,6 +8,24 @@
         "id": "https://sane8s.github.io/avannotatetest/tmchistory/canvas-1/canvas",
         "type": "Canvas",
         "duration": 332.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://sane8s.github.io/avannotatetest/annotations/tmchistory-canvas-1-speaker.json",
+            "label": {
+              "none": ["speaker"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://sane8s.github.io/avannotatetest/annotations/tmchistory-canvas-1-clip.json",
+            "label": {
+              "none": ["clip"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://sane8s.github.io/avannotatetest/tmchistory/canvas-1/paintings",
